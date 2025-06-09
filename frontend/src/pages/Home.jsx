@@ -12,7 +12,9 @@ function Home() {
     { id: 4, title: "Atonment", release_date: "2019" },
   ];
 
-  const handleSearch = () => {};
+  const handleSearch = () => {
+    alert(searchQuery)
+  };
 
   return (
     <div className="home">
