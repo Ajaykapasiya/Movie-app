@@ -1,13 +1,17 @@
 import "./App.css";
 import MovieCard from "./components/movieCard";
+import Favourites from "./pages/Favourite";
 import Home from "./pages/Home";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
-  const movienumber = 1;
   return (
-    <>
-      <Home/>
-    </>
+    <main className="main-content">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/favourites" element={<Favourites />} />
+      </Routes>
+    </main>
   );
 }
 
