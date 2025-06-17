@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Favourite = () => {
+function Favourite () {
   return (
-    <div>
+    <div className='favorite'>
       
     </div>
   )
