@@ -8,7 +8,8 @@ function Home() {
   const movies = [
     { id: 1, title: "John Wick", release_date: "2020" },
     { id: 2, title: "Welcome", release_date: "2014" },
-    
+    { id: 3, title: "MI-1", release_date: "1996" },
+    { id: 4, title: "Atonment", release_date: "2019" },
   ];
 
   const handleSearch = () => {
